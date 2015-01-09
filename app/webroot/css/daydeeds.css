@@ -3,15 +3,12 @@
 a, a:hover, a:visited, a:focus{text-decoration:none;transition:all 0.3s ease-in-out 0.1s;}
 ul, li, ul li{padding:0;margin:0;list-style:none;}
 h1, h2, h3, h4, h5, h6, p{margin:0;padding:0;}
-strong{font-family:'CalibriExtraBold';font-weight:normal;}
 label{font-weight:normal;font-family:'CalibriBold';}
-h1{font-size:25px;}
-body{color:#3d3d3d;font-family:'CalibriRegular';}
-body.shownHeader{padding-top:61px;}
 blockquote {font-family: Georgia, serif;font-size: 18px;font-style: italic;margin: 10px 0;padding: 10px 40px;line-height: 120%;position: relative;color: #3d3d3d;}
 blockquote:before {display: block;content: "\201C";font-size: 80px;position: absolute;left: 0px;top: 30px;color: #3d3d3d;}
 blockquote cite {font-family:CalibriRegular;color: #999999;font-size: 14px;display: block;margin-top: 5px;}
 blockquote cite:before {content: "\2014 \2009";}
+strong{font-weight:900;font-family:'Open Sans', sans-serif}
 
 
 /*Some Helper Classess*/
@@ -26,6 +23,11 @@ blockquote cite:before {content: "\2014 \2009";}
 .roboto.bold{font-weight:400;}
 .roboto.extra-bold{font-weight:900;}
 
+.white-text{color:#FFF;}
+
+.sub-heading{font-size:1.5em;}
+.main-heading{font-size:3em}
+
 .shadow-dark{text-shadow:1px 1px 0px #3d3d3d;}
 .shadow-light{text-shadow:1px 1px 0px #FFFFFF;}
 
@@ -36,7 +38,17 @@ blockquote cite:before {content: "\2014 \2009";}
 
 .white-bg{background:url(../img/site/white-bg.jpg);}
 .gray-bg{background:url(../img/site/gray-bg.jpg);}
-.half-tone{opacity:0.5;-moz-opacity:0.5;-webkit-opacity:0.5;filter:alpha(opacity=50);;}
+.half-tone{opacity:0.5;-moz-opacity:0.5;-webkit-opacity:0.5;filter:alpha(opacity=50);}
+
+.inline-block{display:inline-block;}
+.block{display:block;}
+
+.relative{position:relative;}
+.absolute{position:absolute;}
+.fixed{position:fixed;}
+
+.logo-large{width:300px;height:72px;background:url(../img/site/logo-large.png) no-repeat center center;}
+
 
 .container {width:960px;}
 .full-width{min-width:960px;}
@@ -50,10 +62,9 @@ blockquote cite:before {content: "\2014 \2009";}
 .corner{background:url(../img/site/corner-all.png);width:5px;height:5px;display:block;}
 .corner.left-bottom{background-position:0px -5px;}
 
-.page{padding:30px 0;border-top:1px solid #DDD;}
+body{font-family: 'Open Sans', sans-serif;color:#3d3d3d;font-size:12px;}
 
-body{font-family: 'Open Sans', sans-serif;;color:#3d3d3d;font-size:12px;}
+#LandingPage .logo{margin:30px 0;}
 
+#LandingPage .gray-bg{padding:15px 0;margin:20px 0;}
 
-#LandingPage{width:100%;position:relative;}
-#LandingPage .container{}

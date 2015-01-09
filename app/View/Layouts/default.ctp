@@ -16,10 +16,8 @@
 	</head>
 </html>
 <body class="white-bg">
-	<div id="LandingPage">
-		<div class="container center">
-			
-		</div>
-	</div>
+	<?php echo $this->element('header');?>
+	<?php echo $this->fetch('content'); ?>
+	<?php echo $this->element('footer');?>
 </body>
 </html>
