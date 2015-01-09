@@ -1,0 +1,494 @@
+2014-11-16 13:55:06 Error: [MissingControllerException] Controller class AdminController could not be found.
+Exception Attributes: array (
+  'class' => 'AdminController',
+  'plugin' => NULL,
+)
+Request URL: /mmb/admin
+Stack Trace:
+#0 C:\wamp\www\mmb\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-16 13:56:00 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /mmb/admin
+Stack Trace:
+#0 C:\wamp\www\mmb\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-16 13:56:03 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /mmb/admin
+Stack Trace:
+#0 C:\wamp\www\mmb\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-16 13:56:04 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /mmb/admin
+Stack Trace:
+#0 C:\wamp\www\mmb\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-16 13:56:05 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /mmb/admin
+Stack Trace:
+#0 C:\wamp\www\mmb\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-16 14:05:10 Error: [MissingViewException] View file "C:\wamp\www\mmb\app\View\Pages\display.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\mmb\\app\\View\\Pages\\display.ctp',
+)
+Request URL: /mmb/
+Stack Trace:
+#0 C:\wamp\www\mmb\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\wamp\www\mmb\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\wamp\www\mmb\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\wamp\www\mmb\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#4 C:\wamp\www\mmb\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-16 14:05:11 Error: [MissingViewException] View file "C:\wamp\www\mmb\app\View\Pages\display.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\mmb\\app\\View\\Pages\\display.ctp',
+)
+Request URL: /mmb/
+Stack Trace:
+#0 C:\wamp\www\mmb\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\wamp\www\mmb\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\wamp\www\mmb\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\wamp\www\mmb\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#4 C:\wamp\www\mmb\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-16 14:05:12 Error: [MissingViewException] View file "C:\wamp\www\mmb\app\View\Pages\display.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\mmb\\app\\View\\Pages\\display.ctp',
+)
+Request URL: /mmb/
+Stack Trace:
+#0 C:\wamp\www\mmb\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\wamp\www\mmb\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\wamp\www\mmb\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\wamp\www\mmb\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#4 C:\wamp\www\mmb\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-16 14:05:48 Error: [MissingActionException] Action PagesController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'display',
+)
+Request URL: /mmb/
+Stack Trace:
+#0 C:\wamp\www\mmb\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mmb\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 C:\wamp\www\mmb\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-16 14:05:50 Error: [MissingActionException] Action PagesController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'display',
+)
+Request URL: /mmb/
+Stack Trace:
+#0 C:\wamp\www\mmb\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\mmb\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 C:\wamp\www\mmb\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-16 14:06:07 Error: [MissingViewException] View file "C:\wamp\www\mmb\app\View\Pages\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\mmb\\app\\View\\Pages\\index.ctp',
+)
+Request URL: /mmb/
+Stack Trace:
+#0 C:\wamp\www\mmb\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\wamp\www\mmb\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\wamp\www\mmb\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\wamp\www\mmb\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#4 C:\wamp\www\mmb\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-16 14:06:09 Error: [MissingViewException] View file "C:\wamp\www\mmb\app\View\Pages\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\mmb\\app\\View\\Pages\\index.ctp',
+)
+Request URL: /mmb/
+Stack Trace:
+#0 C:\wamp\www\mmb\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\wamp\www\mmb\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\wamp\www\mmb\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\wamp\www\mmb\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#4 C:\wamp\www\mmb\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-16 14:06:25 Error: [MissingViewException] View file "C:\wamp\www\mmb\app\View\Pages\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\mmb\\app\\View\\Pages\\index.ctp',
+)
+Request URL: /mmb/
+Stack Trace:
+#0 C:\wamp\www\mmb\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\wamp\www\mmb\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\wamp\www\mmb\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\wamp\www\mmb\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#4 C:\wamp\www\mmb\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-16 14:51:51 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mmb/css/lib/reset-font.min.css
+Stack Trace:
+#0 C:\wamp\www\mmb\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-16 14:51:52 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mmb/css/lib/reset-font.min.css
+Stack Trace:
+#0 C:\wamp\www\mmb\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-16 14:51:54 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mmb/css/lib/reset-font.min.css
+Stack Trace:
+#0 C:\wamp\www\mmb\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-16 14:52:05 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mmb/css/lib/reset-font.min.css
+Stack Trace:
+#0 C:\wamp\www\mmb\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-16 14:52:12 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mmb/css/lib/reset-font.min.css
+Stack Trace:
+#0 C:\wamp\www\mmb\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-16 14:52:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mmb/css/fonts/site/calibri_light.woff
+Stack Trace:
+#0 C:\wamp\www\mmb\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-16 14:52:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mmb/css/fonts/site/calibri_light.ttf
+Stack Trace:
+#0 C:\wamp\www\mmb\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-16 14:52:28 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mmb/css/fonts/site/calibri_light.woff
+Stack Trace:
+#0 C:\wamp\www\mmb\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-16 14:52:28 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mmb/css/fonts/site/calibri_light.ttf
+Stack Trace:
+#0 C:\wamp\www\mmb\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-16 14:55:38 Error: [MissingControllerException] Controller class Favicon.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Favicon.pngController',
+  'plugin' => NULL,
+)
+Request URL: /mmb/favicon.png
+Stack Trace:
+#0 C:\wamp\www\mmb\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-16 14:55:38 Error: [MissingControllerException] Controller class Favicon.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Favicon.pngController',
+  'plugin' => NULL,
+)
+Request URL: /mmb/favicon.png
+Stack Trace:
+#0 C:\wamp\www\mmb\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-16 15:00:37 Error: Fatal Error (4): syntax error, unexpected 'array' (T_ARRAY) in [C:\wamp\www\mmb\app\View\Layouts\default.ctp, line 10]
+2014-11-16 15:00:37 Error: [FatalErrorException] syntax error, unexpected 'array' (T_ARRAY)
+Request URL: /mmb/
+Stack Trace:
+#0 C:\wamp\www\mmb\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\mmb...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\mmb...', 10, Array)
+#2 C:\wamp\www\mmb\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\mmb...', 10, Array)
+#3 C:\wamp\www\mmb\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-16 15:11:18 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mmb/css/img/white-bg.jpg
+Stack Trace:
+#0 C:\wamp\www\mmb\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-16 15:11:19 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mmb/css/img/white-bg.jpg
+Stack Trace:
+#0 C:\wamp\www\mmb\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-16 15:11:20 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mmb/css/img/white-bg.jpg
+Stack Trace:
+#0 C:\wamp\www\mmb\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-16 15:11:52 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mmb/css/img/white-bg.jpg
+Stack Trace:
+#0 C:\wamp\www\mmb\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-16 15:11:54 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mmb/css/img/white-bg.jpg
+Stack Trace:
+#0 C:\wamp\www\mmb\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-16 15:11:55 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /mmb/css/img/white-bg.jpg
+Stack Trace:
+#0 C:\wamp\www\mmb\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-16 16:21:21 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /mmb/img/nav-bg-png
+Stack Trace:
+#0 C:\wamp\www\mmb\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-16 16:21:23 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /mmb/img/nav-bg-png
+Stack Trace:
+#0 C:\wamp\www\mmb\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-16 16:21:24 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /mmb/img/nav-bg-png
+Stack Trace:
+#0 C:\wamp\www\mmb\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-16 16:21:37 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /mmb/img/site/nav-bg-png
+Stack Trace:
+#0 C:\wamp\www\mmb\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-16 16:21:40 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /mmb/img/site/nav-bg-png
+Stack Trace:
+#0 C:\wamp\www\mmb\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-16 16:56:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /mmb/img/music/coke.jpg
+Stack Trace:
+#0 C:\wamp\www\mmb\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-16 16:56:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /mmb/img/music/coke.jpg
+Stack Trace:
+#0 C:\wamp\www\mmb\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-16 16:56:04 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /mmb/img/music/coke.jpg
+Stack Trace:
+#0 C:\wamp\www\mmb\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-16 19:13:58 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /mmb/img/artists/profile/default.jpg
+Stack Trace:
+#0 C:\wamp\www\mmb\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-16 19:14:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /mmb/img/artists/profile/default.jpg
+Stack Trace:
+#0 C:\wamp\www\mmb\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-25 15:27:55 Error: [MissingControllerException] Controller class CuponationController could not be found.
+Exception Attributes: array (
+  'class' => 'CuponationController',
+  'plugin' => NULL,
+)
+Request URL: /cuponation/
+Stack Trace:
+#0 C:\wamp\www\mmb\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-02 10:09:27 Error: [MissingControllerException] Controller class .imgController could not be found.
+Exception Attributes: array (
+  'class' => '.imgController',
+  'plugin' => NULL,
+)
+Request URL: /daydeeds/.img/site/white-bg.jpg
+Stack Trace:
+#0 C:\wamp\www\daydeeds\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-02 10:09:27 Error: [MissingControllerException] Controller class ..imgController could not be found.
+Exception Attributes: array (
+  'class' => '..imgController',
+  'plugin' => NULL,
+)
+Request URL: /daydeeds/..img/site/white-bg.jpg
+Stack Trace:
+#0 C:\wamp\www\daydeeds\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-02 10:09:30 Error: [MissingControllerException] Controller class ..imgController could not be found.
+Exception Attributes: array (
+  'class' => '..imgController',
+  'plugin' => NULL,
+)
+Request URL: /daydeeds/..img/site/white-bg.jpg
+Stack Trace:
+#0 C:\wamp\www\daydeeds\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-02 10:09:30 Error: [MissingControllerException] Controller class .imgController could not be found.
+Exception Attributes: array (
+  'class' => '.imgController',
+  'plugin' => NULL,
+)
+Request URL: /daydeeds/.img/site/white-bg.jpg
+Stack Trace:
+#0 C:\wamp\www\daydeeds\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-02 10:09:30 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /daydeeds/css/..img/site/white-bg.jpg
+Stack Trace:
+#0 C:\wamp\www\daydeeds\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-02 10:09:30 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /daydeeds/css/.img/site/white-bg.jpg
+Stack Trace:
+#0 C:\wamp\www\daydeeds\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-02 10:09:31 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /daydeeds/css/img/site/white-bg.jpg
+Stack Trace:
+#0 C:\wamp\www\daydeeds\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-02 10:28:51 Error: Fatal Error (1): Call to a member function image() on a non-object in [C:\wamp\www\daydeeds\app\View\Pages\index.ctp, line 3]
+2015-01-02 10:28:51 Error: [FatalErrorException] Call to a member function image() on a non-object
+Request URL: /daydeeds/
+Stack Trace:
+#0 C:\wamp\www\daydeeds\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\day...', 3)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\day...', 3, Array)
+#2 C:\wamp\www\daydeeds\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\day...', 3, Array)
+#3 C:\wamp\www\daydeeds\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-02 10:29:00 Error: Fatal Error (1): Call to a member function img() on a non-object in [C:\wamp\www\daydeeds\app\View\Pages\index.ctp, line 3]
+2015-01-02 10:29:00 Error: [FatalErrorException] Call to a member function img() on a non-object
+Request URL: /daydeeds/
+Stack Trace:
+#0 C:\wamp\www\daydeeds\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\day...', 3)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\day...', 3, Array)
+#2 C:\wamp\www\daydeeds\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\day...', 3, Array)
+#3 C:\wamp\www\daydeeds\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-02 10:29:02 Error: Fatal Error (1): Call to a member function img() on a non-object in [C:\wamp\www\daydeeds\app\View\Pages\index.ctp, line 3]
+2015-01-02 10:29:02 Error: [FatalErrorException] Call to a member function img() on a non-object
+Request URL: /daydeeds/
+Stack Trace:
+#0 C:\wamp\www\daydeeds\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\day...', 3)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\day...', 3, Array)
+#2 C:\wamp\www\daydeeds\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\day...', 3, Array)
+#3 C:\wamp\www\daydeeds\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

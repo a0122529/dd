@@ -1,0 +1,13 @@
+*{padding:0;margin:0;}
+a, a:hover, a:visited, a:focus{text-decoration:none;transition:all 0.3s ease-in-out 0.1s;}
+ul, li, ul li{padding:0;margin:0;list-style:none;}
+h1, h2, h3, h4, h5, h6, p{margin:0;padding:0;}
+strong{font-family:'CalibriExtraBold';font-weight:normal;}
+label{font-weight:normal;font-family:'CalibriBold';}
+h1{font-size:25px;}
+body{color:#3d3d3d;font-family:'CalibriRegular';}
+body.shownHeader{padding-top:61px;}
+blockquote {font-family: Georgia, serif;font-size: 18px;font-style: italic;margin: 10px 0;padding: 10px 40px;line-height: 120%;position: relative;color: #3d3d3d;}
+blockquote:before {display: block;content: "\201C";font-size: 80px;position: absolute;left: 0px;top: 30px;color: #3d3d3d;}
+blockquote cite {font-family:CalibriRegular;color: #999999;font-size: 14px;display: block;margin-top: 5px;}
+blockquote cite:before {content: "\2014 \2009";}
